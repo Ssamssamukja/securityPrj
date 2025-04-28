@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first"> Deliver to</p>
+                <div class="add-icon"> 
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second"> India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option> All </option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input" style="">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-return border">
+                <p><span> Returns</span></p>
+                <p class="nav-second"> &amp; Orders</p>
+            </div>
+            <div class="nav-singin border">
+                <p><span> Hello, sign in</span></p>
+                <p class="nav-second"> Account &amp; lists</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+            </div>
+            <div class="panel">
+                <div class="palan-all">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+                </div>
+                <div class="panel-ops">
+                    <p> Today's Deals </p>
+                    <p> Customer Service </p>
+                    <p> Registry </p>
+                    <p> Gift Card </p>
+                    <p> Sell </p>
+                </div>
+                <div class="panel-deals"> 
+                    Shop deals in Electronics
+                </div>
+            </div>
+    </header>
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p> you are on amazon.com.you can also shop on amazon india for million of product with fast local delivery. <a href="#"> click here to go to amazon.com</a></p>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box">
+        <div class="box-content">
+            <h2> Starting ₹99 | Indoor plants </h2>
+            <div class="box-img" style="background-image: url('images/box_111.jpg'); background-size: cover;"></div>
+            <p> See More </p>
+        </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> Health &amp; Personal Care</h2>
+                <div class="box-img" style="background-image: url('images/box2_image.jpg'); background-size: cover;"></div>
+                <p> See More </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> Revamp your home in style </h2>
+                <div class="box-img" style="background-image: url('images/box3_image.jpg'); background-size: cover;"></div>
+                <p> See More </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> Upcoming Launches</h2>
+                <div class="box-img" style="background-image: url('images/box4_image.jpg'); background-size: cover;"></div>
+                <p> See More </p>
+            </div>
+           
+        </div>
+         <div class="box">
+        <div class="box-content">
+            <h2> Beauty picks</h2>
+            <div class="box-img" style="background-image: url('images/box5_image.jpg'); background-size: cover;"></div>
+            <p> See More </p>
+        </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> Pet Care</h2>
+                <div class="box-img" style="background-image: url('images/box6_image.jpg'); background-size: cover;"></div>
+                <p> See More </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> New arrivals in Toys</h2>
+                <div class="box-img" style="background-image: url('images/box7_image.jpg'); background-size: cover;"></div>
+                <p> See More </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2> Discover fashion Trends</h2>
+                <div class="box-img" style="background-image: url('images/box8_image.jpg'); background-size: cover;"></div>
+                <a> See More <p></p>
+            </a></div><a>
+        </a></div><a>
+        <div class="sell">
+            <div class="in-sell">
+                <h2>Best Sellers in Toys &amp; Games</h2>
+            </div>
+            <div class="in-box">
+                <div class="bag-image" style="width: 180px; background-image: url('images/hero11_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 180px; background-image: url('images/hero22_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 210px; background-image: url('images/hero33_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 140px; background-image: url('images/hero44_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 180px; background-image: url('images/hero55_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 180px; background-image: url('images/hero66_image.jpg'); background-size: cover;"></div>
+                <div class="bag-image" style="width: 180px; background-image: url('images/hero88_image.jpg'); background-size: cover;"></div>
+            </div>
+        </div>
+    </a></div><a>
+    </a><footer><a>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+
+        </a><div class="foot-panel2"><a>
+            </a><ul><a>
+                <p>Get to Know Us</p>
+                </a><a>About Us</a>
+                <a>Careers</a>
+                <a>Press Releases</a>
+                <a>Amazon Science </a>                
+            </ul>
+
+            <ul>
+                <p>Connect with Us</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on Amazon</a>
+                <a> Sell under Amazon Accelerator</a>
+                <a>  Protect and Build Your Brand</a>
+                 <a> Amazon Global Selling</a>
+                <a>Become an Affiliate</a>
+                <a> Fulfilment by Amazon</a>
+                <a>Advertise Your Products</a>
+                 <a>Amazon Pay on Merchants</a>
+                                  
+            </ul>
+
+            <ul>
+                <p> Let Us Help You</p>
+                <a>COVID-19 and Amazon</a>
+                <a>Your Account</a>
+                <a> Returns Centre</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                Help
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy choies</a>
+            </div>
+            <div class="copyright">
+                © 2010-2024, Amazon.com, Inc. or its affiliates
+            </div>
+            <div class="aware">
+                <i class="fa-solid fa-staff-snake"></i> Created By Akash Aware
+            </div>
+        </div>
+    </footer>
+
+</body></html>

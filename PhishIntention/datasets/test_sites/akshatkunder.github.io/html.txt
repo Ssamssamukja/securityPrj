@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./lol.css">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="navlogo border">
+        <div class="logo"></div>
+        </div>
+        
+        <div class="nav-address">
+            <p class="ad1">Deliver to</p>
+            <div class="add-icon"> 
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="ad2">India</p>
+            </div>
+        
+        </div>
+        <div class="nav-search">
+            <select class="All">
+                <option> All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-Bar" style="">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="sign-in border">
+            <p><span>Hello , sign in</span></p> 
+            <p class="nav-second"> Account &amp; Lists </p>
+        </div>
+        <div class="nav-return border">
+            <span>Returns</span>
+            <p class="nav-second">&amp; Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+    <div class="panel">
+        <div class="panel-all ">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops ">
+            <p class=" border ">Today's Deals</p>
+            <p>Customer Service</p>
+            <p> Registry</p>
+            <p> Gift Cards</p>
+            <p> Sell</p>
+        </div>
+        <div class="panel-deal">
+            <p>Shop deals in Electronics</p>
+        </div>
+    </div>
+</header>
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+    <div class="shop">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Health &amp; Personal Care</h2>
+                <div class="box-img" style="background-image: url('./Importance_of_Personal_Care_Products_480x480.webp');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Gaming  Accesories </h2>
+                <div class="box-img" style="background-image: url('./Screenshot\ 2025-01-25\ 223138.png');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Home Essentials</h2>
+                <div class="box-img" style="background-image: url('./Screenshot\ 2025-01-25\ 224218.png');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Apple products</h2>
+                <div class="box-img" style="background-image: url('./Apple-iPhone-16-Pro-128GB-Black-Titanium-8-485x485-optimized.webp');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Cosmetics</h2>
+                <div class="box-img" style="background-image: url('./cosmetics.webp');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Nike</h2>
+                <div class="box-img" style="background-image: url('./NIKE+JAM.png');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Toys</h2>
+                <div class="box-img" style="background-image: url('./download.jpeg');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Refresh Your Space</h2>
+                <div class="box-img" style="background-image: url('./Screenshot\ 2025-01-25\ 230435.png');"></div>
+                <p>Shop Now</p>
+            </div>
+        </div>
+       
+    </div>
+    <footer>
+        <div class="foot1">
+            Back to Top
+        </div>
+        <div class="foot2">
+            <ul>
+               <p> Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science  
+            </a></ul><a>
+            </a><ul><a>
+                <p> Get to Know Us</p>
+                 </a><a>Careers</a>
+                 <a>Blog</a>
+                 <a>About Amazon</a>
+                 <a>Investor Relations</a>
+                 <a>Amazon Devices</a>
+                 <a>Amazon Science  
+             </a></ul><a>
+             </a><ul><a>
+                <p> Get to Know Us</p>
+                 </a><a>Careers</a>
+                 <a>Blog</a>
+                 <a>About Amazon</a>
+                 <a>Investor Relations</a>
+                 <a>Amazon Devices</a>
+                 <a>Amazon Science  
+             </a></ul><a>  
+             </a><ul><a>
+                <p> Get to Know Us</p>
+                 </a><a>Careers</a>
+                 <a>Blog</a>
+                 <a>About Amazon</a>
+                 <a>Investor Relations</a>
+                 <a>Amazon Devices</a>
+                 <a>Amazon Science  
+             </a></ul><a>
+        </a></div><a>
+        <div class="foot3">
+            <div class="footlogo">
+
+            </div>
+        </div>
+        </a><div class="foot4"><a>
+            </a><div class="pages"><a>
+                </a><a>Condtions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+
+</body></html>

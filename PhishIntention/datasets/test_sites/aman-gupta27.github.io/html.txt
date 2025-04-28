@@ -1,0 +1,539 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.apple.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+
+  <body style="">
+    <div id="page1">
+      <div id="Hidden">
+        <div id="hidden-menu">
+          <div class="hiddenTextParent" id="hidden-part1">
+            <h5 class="hiddenText">Shop</h5>
+            <h3 class="hiddenText">Shop the Latest</h3>
+            <h3 class="hiddenText">Mac</h3>
+            <h3 class="hiddenText">iPad</h3>
+            <h3 class="hiddenText">iPhone</h3>
+            <h3 class="hiddenText">Apple Watch</h3>
+            <h3 class="hiddenText">Apple Vision Pro</h3>
+            <h3 class="hiddenText">Accessories</h3>
+          </div>
+          <div class="hiddenTextParent" id="hidden-part2">
+            <h5 class="hiddenText">Quick Links</h5>
+            <h4 class="hiddenText">Find a Store</h4>
+            <h4 class="hiddenText">Order Status</h4>
+            <h4 class="hiddenText">Apple Trade In</h4>
+            <h4 class="hiddenText">Financing</h4>
+          </div>
+          <div id="hidden-part3">
+            <h5>Shop Special Stores</h5>
+            <h4>Certified Refurbished</h4>
+            <h4>Education</h4>
+            <h4>Business</h4>
+            <h4>Veterans and Military</h4>
+            <h4>Governments</h4>
+          </div>
+        </div>
+      </div>
+      <div id="Hidden-second">
+        <div id="hidden-menu-part1">
+          <div id="hidden-part1">
+            <h5>AMAN</h5>
+            <h3>Shop the Latest</h3>
+            <h3>Mac</h3>
+            <h3>iPad</h3>
+            <h3>iPhone</h3>
+            <h3>Apple Watch</h3>
+            <h3>Accessories</h3>
+          </div>
+          <div id="hidden-part2">
+            <h5>Quick Links</h5>
+            <h4>Find a Store</h4>
+            <h4>Order Status</h4>
+            <h4>Apple Trade In</h4>
+            <h4>Financing</h4>
+          </div>
+          <div id="hidden-part3">
+            <h5>Shop Special Stores</h5>
+            <h4>Certified Refurbished</h4>
+            <h4>Education</h4>
+            <h4>Business</h4>
+            <h4>Veterans and Military</h4>
+            <h4>Governments</h4>
+          </div>
+        </div>
+      </div>
+      <div id="nav">
+        <i class="ri-apple-fill"></i>
+        <h4 id="store">Store</h4>
+        <h4 id="Mac">Mac</h4>
+        <h4>iPad</h4>
+        <h4>iPhone</h4>
+        <h4>Watch</h4>
+        <h4>Vision</h4>
+        <h4>Airpods</h4>
+        <h4>TV &amp; Phone</h4>
+        <h4>Entertainment</h4>
+        <h4>Accessories</h4>
+        <h4>Support</h4>
+        <i class="ri-search-line"></i>
+        <i class="ri-shopping-bag-line"></i>
+      </div>
+      <div id="text-container">
+        <div id="part1">
+          <i class="ri-apple-fill"></i>
+          <h1>Vision Pro</h1>
+        </div>
+        <h2>Welcome to the era of spatial computing.</h2>
+        <h3 id="h31">Pre-order starting 1.19 at 5:00 a.m PT</h3>
+        <h3 id="h32">Available starting 2.2</h3>
+
+        <a id="anchor" href="">Learn more <i class="ri-arrow-right-s-line"></i></a>
+      </div>
+    </div>
+    <div id="page2">
+      <div id="page2-part1">
+        <h1>iPhone 15 Pro</h1>
+        <p>Titanium. So strong.So light. So Pro</p>
+        <div id="page2-part3">
+          <div id="page2-part3-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="page2-part3-part2">
+            <a href="">Buy</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page3">
+      <div id="content">
+        <h1>iPhone 15 <span>Pro</span></h1>
+        <div id="content-part2">
+          <h3>New camera. New design. Newphoria</h3>
+        </div>
+        <div id="page3-part3">
+          <div id="page3-part3-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="page3-part3-part2">
+            <a href="">Buy</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page4">
+      <div id="box1">
+        <div id="box1-part1">
+          <i class="ri-apple-fill"></i>
+          <h1>WATCH</h1>
+        </div>
+        <div id="box1-part2">
+          <h3>SERIES 9</h3>
+        </div>
+        <div id="box1-part3">
+          <h2>Smarter. Brighter. Mightier.</h2>
+        </div>
+        <div id="box1-part4">
+          <div id="box1-part4-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="box1-part4-part2">
+            <a href="">Buy</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+      <div id="box2">
+        <div id="box2-part1">
+          <i class="ri-apple-fill"></i>
+          <h1>WATCH</h1>
+        </div>
+        <div id="box2-part2">
+          <h3>ULTRA 2</h3>
+        </div>
+        <div id="box2-part3">
+          <h2>Next level adventure.</h2>
+        </div>
+        <div id="box2-part4">
+          <div id="box2-part4-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="box2-part4-part2">
+            <a href="">Buy</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page5">
+      <div id="box3">
+        <div id="box3-part1">
+          <h1>Macbook Pro</h1>
+        </div>
+        <div id="box3-part2">
+          <h3>Mind Blowing.Head Turning</h3>
+        </div>
+        <div id="box3-part3">
+          <div id="box3-part3-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="box3-part3-part2">
+            <a href="">Buy</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+      <div id="box4">
+        <div id="box4-part1">
+          <i class="ri-apple-fill"></i>
+          <h1>Fitness+</h1>
+        </div>
+        <div id="box4-part2">
+          <p>From HIIt to Yoga. From 5 to 45 minutes.</p>
+        </div>
+        <div id="box4-part3">
+          <p>There's something for everyone.</p>
+        </div>
+        <div id="box4-part4">
+          <div id="box4-part4-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="box4-part4-part2">
+            <a href="">Try it free <sup>1</sup></a>
+
+            <i class="ri-arrow-right-up-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page6">
+      <div id="box5">
+        <div id="box5-part1">
+          <i class="ri-apple-fill"></i>
+          <h1>Card</h1>
+        </div>
+        <div id="box5-part2">
+          <p>Get up to 3% Daily Cash back</p>
+        </div>
+        <div id="box5-part3">
+          <p>with every purchase.</p>
+        </div>
+        <div id="box5-part4">
+          <div id="box5-part4-part1">
+            <a href="">Learn more</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div id="box5-part4-part2">
+            <a href="">Apply now</a>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+      <div id="box6">
+        <div id="box6-part1">
+          <i class="ri-apple-fill"></i>
+          <h1>Trade In</h1>
+        </div>
+        <div id="box6-part2">
+          <p>Get $180-$620 in credit when</p>
+        </div>
+        <div id="box6-part3">
+          <p>you trade in iphone 11 or higher. <sup>2</sup></p>
+        </div>
+        <div id="box6-part4">
+          <a href="">see what your device is worth</a>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+      </div>
+    </div>
+    <div id="page7">
+      <div class="swiper mySwiper swiper-initialized swiper-horizontal">
+        <div class="swiper-wrapper" id="swiper-wrapper-f3d1a19af3ad3fa8" aria-live="off" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-1900px, 0px, 0px); transition-delay: 0ms;"><div class="swiper-slide" role="group" aria-label="9 / 10" data-swiper-slide-index="8" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Drama. </span>Change is on the air</p>
+            </div>
+          </div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="10 / 10" data-swiper-slide-index="9" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Drama. </span>Life rarely follows a formula</p>
+            </div>
+          </div>
+          <div id="ss" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" data-swiper-slide-index="0" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/rss8pF-klNy76S-NWFue-A/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">
+                <span>Crime. </span>An Apple Original Film by Martin Scorsese
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10" data-swiper-slide-index="1" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/mZsXfk4apSIl3Q5QZqztiQ/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Adventure </span>Some secrets cannot be obtained</p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="3 / 10" data-swiper-slide-index="2" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/q8QlFpnNct0G9kpRmyMyNw/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Drama. </span>A New Gold rush begins</p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="4 / 10" data-swiper-slide-index="3" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/-RJ9s2YmRAo0GqNUf3GNlg/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">
+                <span>Thriller. </span>An Apple Original Film by Martin Scorsese
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="5 / 10" data-swiper-slide-index="4" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/ezusa3yqzCsXk3K-gGIlFQ/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Crime. </span>You can't hide from yourself</p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="6 / 10" data-swiper-slide-index="5" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/tPJwMGtsAr_psAVlyf2Rzg/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Comedy. </span>A thrilling road trip comedy</p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="7 / 10" data-swiper-slide-index="6" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);"><span>Comedy. </span>kindness makes a comeback</p>
+            </div>
+          </div>
+          <div class="swiper-slide" role="group" aria-label="8 / 10" data-swiper-slide-index="7" style="margin-right: 20px;">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/08RCyCOvu05COuc-qdDudQ/1378x774.jpg" alt="">
+            <div id="button">
+              <button style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">Stream Now <i class="ri-play-circle-fill"></i></button>
+              <p style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 30%);">
+                <span>Documentary </span>An Apple Original Film by Martin
+                Scorsese
+              </p>
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f3d1a19af3ad3fa8"></div>
+        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f3d1a19af3ad3fa8"></div>
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    </div>
+    <div id="footer">
+      <div id="footer-part1">
+        <p>
+          1. Apple Fitness+ requires iPhone 8 or later or Apple Watch Series 3
+          or later paired with iPhone 6s or later. New subscribers only.
+          $9.99/month after trial. Plan automatically renews until cancelled.
+          Terms apply.
+        </p>
+      </div>
+      <div id="footer-part2">
+        <p>
+          2. Trade-in values will vary based on the condition, year, and
+          configuration of your eligible trade-in device. Not all devices are
+          eligible for credit. You must be at least 18 years old to be eligible
+          to trade in for credit or for an Apple Gift Card. Trade-in value may
+          be applied toward qualifying new device purchase, or added to an Apple
+          Gift Card. Actual value awarded is based on receipt of a qualifying
+          device matching the description provided when estimate was made. Sales
+          tax may be assessed on full value of a new device purchase. In-store
+          trade-in requires presentation of a valid photo ID (local law may
+          require saving this information). Offer may not be available in all
+          stores, and may vary between in-store and online trade-in. Some stores
+          may have additional requirements. Apple or its trade-in partners
+          reserve the right to refuse or limit quantity of any trade-in
+          transaction for any reason. More details are available from Apple’s
+          trade-in partner for trade-in and recycling of eligible devices.
+          Restrictions and limitations may apply.
+        </p>
+      </div>
+      <div id="footer-part3">
+        <p>
+          Apple Vision Pro has not been authorized as required by the rules of
+          the Federal Communications Commission. This device is not, and may not
+          be, offered for sale or lease, or sold or leased, until authorization
+          is obtained.
+        </p>
+      </div>
+      <div id="footer-part4">
+        <p>
+          Available in the U.S. on apple.com, in the Apple Store app, and at
+          Apple Stores.
+        </p>
+      </div>
+      <div id="footer-part5">
+        <p>
+          To access and use all Apple Card features and products available only
+          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
+          iPad that supports and has the latest version of iOS or iPadOS. Apple
+          Card is subject to credit approval, available only for qualifying
+          applicants in the United States, and issued by Goldman Sachs Bank USA,
+          Salt Lake City Branch.
+        </p>
+      </div>
+      <div id="footer-part6">
+        <p>
+          If you reside in the U.S. territories, please call Goldman Sachs at
+          877-255-5923 with questions about Apple Card.
+        </p>
+      </div>
+      <div id="footer-part7">
+        <p>
+          Learn more about how Apple Card applications are evaluated at
+          support.apple.com/kb/HT209218.
+        </p>
+      </div>
+      <div id="footer-part8">
+        <p>A subscription is required for Apple TV+.</p>
+      </div>
+      <div id="nav2"></div>
+      <div id="footer-main">
+        <div id="shop">
+          <h4>Shop and Learn</h4>
+          <h5>Store</h5>
+          <h5>Mac</h5>
+          <h5>iPad</h5>
+          <h5>iPhone</h5>
+          <h5>Watch</h5>
+          <h5>Vision</h5>
+          <h5>Airpods</h5>
+          <h5>TV &amp; Home</h5>
+          <h5>AirTag</h5>
+          <h5>Accessories</h5>
+          <h5>Gifts Cards</h5>
+          <div id="shop-part2">
+            <h4>Apple Wallet</h4>
+            <h5>Wallet</h5>
+            <h5>Apple Cart</h5>
+            <h5>Apple pay</h5>
+            <h5>Apple Cash</h5>
+          </div>
+        </div>
+        <div id="Account">
+          <h4>Account</h4>
+          <h5>Manage Your Apple Id</h5>
+          <h5>Apple Store Account</h5>
+          <h5>iCloud.com</h5>
+          <div id="Account-part2">
+            <h4>Entertainment</h4>
+            <h5>Apple One</h5>
+            <h5>Apple TV+</h5>
+            <h5>Apple Music</h5>
+            <h5>Apple Arcade</h5>
+            <h5>Apple Fitness+</h5>
+            <h5>Apple News+</h5>
+            <h5>Apple Podcasts</h5>
+            <h5>Apple Books</h5>
+            <h5>App Store</h5>
+          </div>
+        </div>
+        <div id="Apple-store">
+          <h4>Apple Store</h4>
+          <h5>Find a Store</h5>
+          <h5>Genius Bar</h5>
+          <h5>Today at Apple</h5>
+          <h5>Apple Camp</h5>
+          <h5>Apple Store App</h5>
+          <h5>Certified Refurbished</h5>
+          <h5>Apple Trade In</h5>
+          <h5>Financing</h5>
+          <h5>Carrier Deals at Apple</h5>
+          <h5>Order Status</h5>
+          <h5>Shopping Help</h5>
+        </div>
+        <div id="Business">
+          <h4>For Business</h4>
+          <h5>Apple and Business</h5>
+          <h5>Shop for Business</h5>
+          <div id="Business-part2">
+            <h4>For Education</h4>
+            <h5>Apple and Education</h5>
+            <h5>Shop for K-12</h5>
+            <h5>Shop For College</h5>
+          </div>
+          <div id="Business-part3">
+            <h4>For Healthcare</h4>
+            <h5>Apple in Healthcare</h5>
+            <h5>Health on Apple Watch</h5>
+            <h5>Health Records on iPhone</h5>
+          </div>
+          <div id="Business-part4">
+            <h4>For Government</h4>
+            <h5>Shop for Government</h5>
+            <h5>Shop For Veterans and Military</h5>
+          </div>
+        </div>
+        <div id="Apple-values">
+          <h4>Apple Values</h4>
+          <h5>Accessibility</h5>
+          <h5>Education</h5>
+          <h5>Environment</h5>
+          <h5>Inclusion and Diversity</h5>
+          <h5>Privacy</h5>
+          <h5>Racial Equity and Justice</h5>
+          <h5>Supplier Responsibility</h5>
+          <div id="Apple-values-part2">
+            <h4>About Apple</h4>
+            <h5>Newsroom</h5>
+            <h5>Apple Leadership</h5>
+            <h5>Career Opportunities</h5>
+            <h5>Investors</h5>
+            <h5>Ethics and Compliance</h5>
+            <h5>Events</h5>
+            <h5>Contact Apple</h5>
+          </div>
+        </div>
+      </div>
+      <div id="footer-second">
+        <p>
+          More ways to shop: <span>Find an Apple Store</span> or
+          <span>other Retailer</span> near you. Or call 1-800-MY-APPLE.
+        </p>
+      </div>
+      <div id="footer-last">
+        <div id="footer-last-part1">
+          <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+          <h5>
+            Privacy Policy | Terms of Use | Sales and Refunds | Legal | Site Map
+          </h5>
+          <div id="footer-last-part2">
+            <h4>United States</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+  
+
+</body></html>
