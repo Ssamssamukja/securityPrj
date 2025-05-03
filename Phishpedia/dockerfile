@@ -23,7 +23,7 @@ RUN apt-get install -y dos2unix
 RUN dos2unix setup.sh
 RUN chmod +x setup.sh
 RUN bash setup.sh || true
-# Ensure Conda is initialized and phishpedia environment is activated by default
+# Conda activate
 RUN echo "source /opt/miniconda/etc/profile.d/conda.sh && conda activate phishpedia" >> ~/.bashrc
-# Set the default command to execute when the container starts
-CMD ["bash", "-c", "source /opt/miniconda/etc/profile.d/conda.sh && conda activate phishpedia && cd /workspace/Phishpedia && /bin/bash"]
+# Default command: just bash
+CMD ["bash"]
