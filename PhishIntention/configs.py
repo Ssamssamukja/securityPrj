@@ -56,18 +56,19 @@ def load_config(reload_targetlist=False):
 
     OCR_MODEL = ocr_model_config(weights_path = configs['SIAMESE_MODEL']['OCR_WEIGHTS_PATH'])
 
-    if reload_targetlist or (not os.path.exists(os.path.join(os.path.dirname(__file__), 'LOGO_FEATS.npy'))):
+    logo_feats_path = os.path.join(os.path.dirname(__file__), 'models', 'LOGO_FEATS.npy')
+    logo_files_path = os.path.join(os.path.dirname(__file__), 'models', 'LOGO_FILES.npy')
+
+    if reload_targetlist or (not os.path.exists(logo_feats_path)):
         LOGO_FEATS, LOGO_FILES = cache_reference_list(model=SIAMESE_MODEL,
-                                                      ocr_model=OCR_MODEL,
-                                                      targetlist_path=full_targetlist_folder_dir)
+                                                          ocr_model=OCR_MODEL,
+                                                          targetlist_path=full_targetlist_folder_dir)
         print('Finish loading protected logo list')
-        np.save(os.path.join(os.path.dirname(__file__),'LOGO_FEATS.npy'), LOGO_FEATS)
-        np.save(os.path.join(os.path.dirname(__file__),'LOGO_FILES.npy'), LOGO_FILES)
-
+        np.save(logo_feats_path, LOGO_FEATS)
+        np.save(logo_files_path, LOGO_FILES)
     else:
-        LOGO_FEATS, LOGO_FILES = np.load(os.path.join(os.path.dirname(__file__),'LOGO_FEATS.npy')), \
-                                 np.load(os.path.join(os.path.dirname(__file__),'LOGO_FILES.npy'))
-
+        LOGO_FEATS = np.load(logo_feats_path, allow_pickle=True)
+        LOGO_FILES = np.load(logo_files_path, allow_pickle=True)
     DOMAIN_MAP_PATH = configs['SIAMESE_MODEL']['DOMAIN_MAP_PATH']
 
     return AWL_MODEL, CRP_CLASSIFIER, CRP_LOCATOR_MODEL, SIAMESE_MODEL, OCR_MODEL, SIAMESE_THRE, LOGO_FEATS, LOGO_FILES, DOMAIN_MAP_PATH

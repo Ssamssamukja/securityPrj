@@ -34,9 +34,10 @@ WORKDIR /workspace/PhishIntention
 # Fix line endings and permissions
 RUN dos2unix setup.sh
 RUN chmod +x setup.sh
+RUN bash setup.sh || true
 
-# Set environment variable
-ENV ENV_NAME=phishintention
+# Activate conda env by default
+RUN echo "source /opt/miniconda/etc/profile.d/conda.sh && conda activate phishintention" >> ~/.bashrc
 
 # Default command
 CMD ["bash"]

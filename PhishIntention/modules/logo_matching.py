@@ -333,7 +333,7 @@ def ocr_model_config(weights_path, height=None, width=None):
 def siamese_model_config(num_classes: int, weights_path: str):
     # Initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = KNOWN_MODELS["BiT-M-R50x1"](head_size=num_classes, zero_head=True)
+    model = KNOWN_MODELS["BiT-M-R50x1"](head_size=277, zero_head=True)
 
     # Load weights
     weights = torch.load(weights_path, map_location='cpu')
@@ -417,34 +417,21 @@ def get_ocr_aided_siamese_embedding(img, model, ocr_model, grayscale=False):
      ])
 
     if isinstance(img, torch.Tensor):
+        from torchvision.transforms.functional import to_pil_image
         img = to_pil_image(img)
-
-    img = Image.open(img) if isinstance(img, str) else img
+    elif isinstance(img, str):
+        img = Image.open(img)
     img = img.convert("RGBA").convert("L").convert("RGB") if grayscale else img.convert("RGBA").convert("RGB")
 
-    ## Resize the image while keeping the original aspect ratio
-    pad_color = 255 if grayscale else (255, 255, 255)
-    img = ImageOps.expand(img, (
-        (max(img.size) - img.size[0]) // 2, (max(img.size) - img.size[1]) // 2,
-        (max(img.size) - img.size[0]) // 2, (max(img.size) - img.size[1]) // 2), fill=pad_color)
-
-    img = img.resize((img_size, img_size))
-
-    # Predict the embedding
-    # get ocr embedding from pretrained paddleOCR
-    with torch.no_grad():
-        ocr_emb = ocr_main(image_path=img, model=ocr_model, height=None, width=None)
-        ocr_emb = ocr_emb[0]
-        ocr_emb = ocr_emb[None, ...].to(device)  # remove batch dimension
-
-    # Predict the embedding
-    with torch.no_grad():
-        img = img_transforms(img)
-        img = img[None, ...].to(device)
-        logo_feat = model.features(img, ocr_emb)
-        logo_feat = l2_norm(logo_feat).squeeze(0).cpu().numpy()  # L2-normalization final shape is (2560,)
-
     try:
+        ## Resize the image while keeping the original aspect ratio
+        pad_color = 255 if grayscale else (255, 255, 255)
+        img = ImageOps.expand(img, (
+            (max(img.size) - img.size[0]) // 2, (max(img.size) - img.size[1]) // 2,
+            (max(img.size) - img.size[0]) // 2, (max(img.size) - img.size[1]) // 2), fill=pad_color)
+
+        img = img.resize((img_size, img_size))
+
         ocr_emb = ocr_main(image_path=img, model=ocr_model, height=None, width=None)
         ocr_emb = ocr_emb[0]
         ocr_emb = ocr_emb[None, ...].to(device)
@@ -452,7 +439,7 @@ def get_ocr_aided_siamese_embedding(img, model, ocr_model, grayscale=False):
         img = img_transforms(img)
         img = img[None, ...].to(device)
 
-        logo_feat = model.features(img, ocr_emb)
+        logo_feat = model(img, ocr_emb)
         logo_feat = l2_norm(logo_feat).squeeze(0).cpu().numpy()
 
         if logo_feat.size == 0:
@@ -506,7 +493,7 @@ def pred_brand(model, ocr_model, domain_map, logo_feat_list, file_name_list, sho
     # top1,2,3 candidate logos
     top3_logolist = [Image.open(x) for x in pred_brand_list]
     top3_brandlist = [brand_converter(os.path.basename(os.path.dirname(x))) for x in pred_brand_list]
-    top3_domainlist = [domain_map[x] for x in top3_brandlist]
+    top3_domainlist = [domain_map.get(x,[]) for x in top3_brandlist]
     top3_simlist = sim_list
 
     for j in range(3):

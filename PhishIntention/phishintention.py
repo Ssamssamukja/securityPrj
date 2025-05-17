@@ -26,7 +26,7 @@ class PhishIntentionWrapper:
 
     def _load_config(self):
         self.AWL_MODEL, self.CRP_CLASSIFIER, self.CRP_LOCATOR_MODEL, self.SIAMESE_MODEL, self.OCR_MODEL, \
-            self.SIAMESE_THRE, self.LOGO_FEATS, self.LOGO_FILES, self.DOMAIN_MAP_PATH = load_config()
+            self.SIAMESE_THRE, self.LOGO_FEATS, self.LOGO_FILES, self.DOMAIN_MAP_PATH = load_config(reload_targetlist=False)
         print(f'Length of reference list = {len(self.LOGO_FEATS)}')
 
     '''PhishIntention'''

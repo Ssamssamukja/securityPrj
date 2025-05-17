@@ -30,7 +30,7 @@ def initialize_chrome_settings():
     options.add_experimental_option('useAutomationExtension', False)
     options.add_argument(
         'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36')
-    options.set_capability('unhandledPromptBehavior', 'dismiss')  # dismiss
+    # options.set_capability('unhandledPromptBehavior', 'dismiss')  # dismiss
 
 
     return options
@@ -145,7 +145,7 @@ def driver_loader():
     options = initialize_chrome_settings()
     capabilities = DesiredCapabilities.CHROME
     capabilities["goog:loggingPrefs"] = {"performance": "ALL"}  # chromedriver 75+
-    capabilities["unexpectedAlertBehaviour"] = "dismiss"  # handle alert
+    # capabilities["unexpectedAlertBehaviour"] = "dismiss"  # handle alert
     capabilities["pageLoadStrategy"] = "eager"  # eager mode #FIXME: set eager mode, may load partial webpage
 
     # driver = webdriver.Chrome(ChromeDriverManager().install())
